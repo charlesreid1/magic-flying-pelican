@@ -17,7 +17,6 @@ OUTPUT_PATH = 'output'
 THEME = 'simple-bootstrap'
 # https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
-
 # --------------8<---------------------
 # Files and content
 
@@ -37,10 +36,9 @@ PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['posts']
 
 
-
-
 # --------------8<---------------------
 # idk just some dumb stuff
+
 
 DISPLAY_PAGES_ON_MENU = False
 FEED_ALL_ATOM = None
