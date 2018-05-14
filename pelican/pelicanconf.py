@@ -17,13 +17,6 @@ OUTPUT_PATH = 'output'
 THEME = 'simple-bootstrap'
 # https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
-GITHUB_URL = ''
-TWITTER_URL = ''
-FACEBOOK_URL = ''
-GOOGLEPLUS_URL = ''
-GOOGLE_ANALYTICS_ID = ''
-GOOGLE_ANALYTICS_SITENAME = ''
-
 
 # --------------8<---------------------
 # Files and content
