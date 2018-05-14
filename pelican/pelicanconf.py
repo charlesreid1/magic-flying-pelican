@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 import markdown
 
-AUTHOR = u'charlesreid1'
-SITENAME = u'ginsberg bot flock'
+AUTHOR = 'charlesreid1'
+SITENAME = 'the magic flying pelican'
 SITEURL = ''
 TIMEZONE = 'America/Los_Angeles'
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 PATH = 'content'
 OUTPUT_PATH = 'output'
