@@ -41,6 +41,9 @@ ARTICLE_PATHS = ['posts']
 # Look for files in example_app/ directory,
 # make them available on the site at /app
 """
+# Don't try to turn HTML files into pages
+READERS = {'html': None}
+
 EXTRA_TEMPLATES_PATHS.append('example_app') # This is where these files live
 #TEMPLATE_PAGES[filename]      = /final/site/path/filename
 TEMPLATE_PAGES['my_app.html'] = 'app/index.html'
