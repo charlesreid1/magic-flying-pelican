@@ -35,6 +35,20 @@ PAGE_PATHS = ['pages']
 # we should put them in content/posts
 ARTICLE_PATHS = ['posts']
 
+# -------------8<----------------------
+# Add an app with multiple files
+#
+# Look for files in example_app/ directory,
+# make them available on the site at /app
+"""
+EXTRA_TEMPLATES_PATHS.append('example_app') # This is where these files live
+#TEMPLATE_PAGES[filename]      = /final/site/path/filename
+TEMPLATE_PAGES['my_app.html'] = 'app/index.html'
+TEMPLATE_PAGES['app.js']      = 'app/app.js'
+TEMPLATE_PAGES['app.css']     = 'app/app.css'
+TEMPLATE_PAGES['data.json']   = 'app/data.json'
+"""
+
 
 # --------------8<---------------------
 # idk just some dumb stuff
