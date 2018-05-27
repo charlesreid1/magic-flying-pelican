@@ -44,7 +44,7 @@ ARTICLE_PATHS = ['posts']
 # make them available on the site at /app
 """
 EXTRA_TEMPLATES_PATHS = []
-TEMPLATE_PAGES = []
+TEMPLATE_PAGES = {}
 
 EXTRA_TEMPLATES_PATHS.append('example_app') # This is where these files live
 #TEMPLATE_PAGES[filename]      = /final/site/path/filename
